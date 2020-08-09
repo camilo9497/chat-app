@@ -1,0 +1,14 @@
+.container-content-phone {
+  box-sizing: border-box;
+  width: 225px;
+  height: 445px;
+  background: var(--backgroundApp);
+  border-radius: 25px;
+  border: 10px solid white;
+  box-shadow: 10px 10px 37px -18px rgba(158, 153, 158, 1);
+}
+@media screen and (max-width: 625px) {
+  .container-content-phone {
+    margin-bottom: 40px;
+  }
+}
